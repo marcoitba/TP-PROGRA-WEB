@@ -11,3 +11,76 @@
     height: 850px; 
     object-fit: cover;
   }
+
+
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    background: #fefafa;
+  }
+  
+  .slider img {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+  }
+  .texto {
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+  }
+
+  .texto1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 50px auto;
+    gap: 10px;
+  }
+
+
+  .form-control {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+  }
+  
+  .btnSuscripcion {
+    padding: 8px 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .linea-centro {
+    border: none;
+    border-top: 2px solid black; 
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .texto2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+  }
+
+  
