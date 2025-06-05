@@ -79,7 +79,16 @@ function actualizarCantidadCarrito() {
 }   
 
 
+document.getElementById('btnSuscribir').addEventListener('click', function() {
+    const email = document.getElementById('emailInput').value.trim();
 
+    if (email.includes('@')) {
+        alert('Gracias por suscribirse');
+        document.getElementById('emailInput').value = '';
+    } else {
+        alert("Por favor, ingrese un correo válido.");
+    }
+    });
 
 document.addEventListener("DOMContentLoaded", function() {
     mostrarCarrito();
